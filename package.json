@@ -1,0 +1,39 @@
+{
+  "name": "redux-observible-test",
+  "version": "1.0.0",
+  "description": "react-ts-template",
+  "scripts": {
+    "dev": "webpack serve --config webpack/webpack.dev.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linwei5316/react-ts-template.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linwei5316/react-ts-template/issues"
+  },
+  "homepage": "https://github.com/linwei5316/react-ts-template#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "babel-jest": "^26.6.3",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
+    "ts-loader": "^8.0.12",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.7.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.3"
+  }
+}
